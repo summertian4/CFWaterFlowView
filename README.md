@@ -1,6 +1,8 @@
 # 简介
 CFWaterFlowView是一个简单易用、支持自定义cell的瀑布流框架
-![CFWaterFlowView展示](http://7xnrog.com1.z0.glb.clouddn.com/github_iOS-CFWaterFlowView-show.png-w375)
+![CFWaterFlowView展示](http://7xnrog.com1.z0.glb.clouddn.com/github_iOS-CFWaterFlowView-show-01.png-w375)
+
+![CFWaterFlowView展示](http://7xnrog.com1.z0.glb.clouddn.com/github_iOS-CFWaterFlowView-show-02.jpg-w375)
 
 # 安装
 ## 普通
