@@ -9,8 +9,11 @@ CFWaterFlowView是一个简单易用、支持自定义cell的瀑布流框架
 文件列表：
 
 `CFWaterFlowView.h`
+
 `CFWaterFlowView.m`
+
 `CFWaterFlowViewCell.h`
+
 `CFWaterFlowViewCell.m`
 
 ## CocoaPods
@@ -110,7 +113,7 @@ CFWaterFlowView是通过UIScrollView实现的。CFWaterFlowView使用方法非�
 }
 ```
 
-如果需要自定义cell，你需要编写自己的cell类型，并使其继承于`CFWaterFlowViewCell`，并将你的控制器中代码改为：
+如果需要自定义cell，你需要编写自己的cell类型，并使其继承于`CFWaterFlowViewCell`，再将你的控制器中代码改为：
 
 ```
 - (CFWaterFlowViewCell *)waterFlowView:(CFWaterFlowView *)waterFlowView cellAtIndex:(NSUInteger)index {
