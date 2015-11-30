@@ -56,7 +56,7 @@ typedef enum {
 
 @end
 
-#pragma mark - ========================数据源代理定义=======================
+#pragma mark - ========================代理定义=======================
 @protocol CFWaterFlowViewDelegate <UIScrollViewDelegate>
 
 @optional

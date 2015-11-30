@@ -33,6 +33,7 @@ CFWaterFlowView是通过UIScrollView实现的。CFWaterFlowView使用方法非�
 必须实现的方法方法如下：
  
 ```
+
 /**
  *  一共多少cell
  *
@@ -50,11 +51,13 @@ CFWaterFlowView是通过UIScrollView实现的。CFWaterFlowView使用方法非�
  *  @return 对应索引的cell
  */
 - (CFWaterFlowViewCell *)waterFlowView:(CFWaterFlowView *)waterFlowView cellAtIndex:(NSUInteger)index;
+
 ```
 
 可选实现的方法方法如下：
 
 ```
+
 /**
  *  一共多少列，如果数据源没有设置，默认为2列
  *
@@ -63,12 +66,14 @@ CFWaterFlowView是通过UIScrollView实现的。CFWaterFlowView使用方法非�
  *  @return 瀑布流列数
  */
 - (NSUInteger)numberOfColumnsInWaterFlowView:(CFWaterFlowView *)waterFlowView;
+
 ```
 
 ## CFWaterFlowViewDelegate
 可选实现的方法方法如下：
 
 ```
+
 /**
  *  返回对应索引的cell的高度
  *
@@ -94,6 +99,7 @@ CFWaterFlowView是通过UIScrollView实现的。CFWaterFlowView使用方法非�
  *  @return 对应间距类型的间距
  */
 - (CGFloat)waterFlowView:(CFWaterFlowView *)waterFlowView marginForType:(CFWaterFlowViewMarginType)type;
+
 ```
 
 # 自定义cell
@@ -102,6 +108,7 @@ CFWaterFlowView是通过UIScrollView实现的。CFWaterFlowView使用方法非�
 如果不需要自定义cell，你可以在你的控制器里这样写：
 
 ```
+
 - (CFWaterFlowViewCell *)waterFlowView:(CFWaterFlowView *)waterFlowView cellAtIndex:(NSUInteger)index {
     CFWaterFlowViewCell *cell = [waterFlowView dequeueReusableCellWithIdentifier:@"ID"];
     
@@ -111,11 +118,13 @@ CFWaterFlowView是通过UIScrollView实现的。CFWaterFlowView使用方法非�
     }
     return cell;
 }
+
 ```
 
 如果需要自定义cell，你需要编写自己的cell类型，并使其继承于`CFWaterFlowViewCell`，再将你的控制器中代码改为：
 
 ```
+
 - (CFWaterFlowViewCell *)waterFlowView:(CFWaterFlowView *)waterFlowView cellAtIndex:(NSUInteger)index {
     YourCell *cell = [waterFlowView dequeueReusableCellWithIdentifier:@"ID"];
     
@@ -125,6 +134,7 @@ CFWaterFlowView是通过UIScrollView实现的。CFWaterFlowView使用方法非�
     }
     return cell;
 }
+
 ```
 
 # 其他
