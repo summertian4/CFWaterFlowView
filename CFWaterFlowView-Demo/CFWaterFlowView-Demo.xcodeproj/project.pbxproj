@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8210C34F1C0C71590013791A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8210C34E1C0C71590013791A /* main.m */; };
+		8210C3521C0C71590013791A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8210C3511C0C71590013791A /* AppDelegate.m */; };
+		8210C3551C0C71590013791A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8210C3541C0C71590013791A /* ViewController.m */; };
+		8210C3581C0C71590013791A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8210C3561C0C71590013791A /* Main.storyboard */; };
+		8210C35A1C0C71590013791A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8210C3591C0C71590013791A /* Assets.xcassets */; };
+		8210C35D1C0C71590013791A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8210C35B1C0C71590013791A /* LaunchScreen.storyboard */; };
+		8210C3681C0C71590013791A /* CFWaterFlowView_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8210C3671C0C71590013791A /* CFWaterFlowView_DemoTests.m */; };
+		8210C3731C0C71590013791A /* CFWaterFlowView_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8210C3721C0C71590013791A /* CFWaterFlowView_DemoUITests.m */; };
+		8210C3881C0C71B60013791A /* CFWaterFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8210C3851C0C71B60013791A /* CFWaterFlowView.m */; settings = {ASSET_TAGS = (); }; };
+		8210C3891C0C71B60013791A /* CFWaterFlowViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8210C3871C0C71B60013791A /* CFWaterFlowViewCell.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8210C3641C0C71590013791A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8210C3421C0C71590013791A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8210C3491C0C71590013791A;
+			remoteInfo = "CFWaterFlowView-Demo";
+		};
+		8210C36F1C0C71590013791A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8210C3421C0C71590013791A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8210C3491C0C71590013791A;
+			remoteInfo = "CFWaterFlowView-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8210C34A1C0C71590013791A /* CFWaterFlowView-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CFWaterFlowView-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8210C34E1C0C71590013791A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8210C3501C0C71590013791A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8210C3511C0C71590013791A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8210C3531C0C71590013791A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8210C3541C0C71590013791A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8210C3571C0C71590013791A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8210C3591C0C71590013791A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8210C35C1C0C71590013791A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8210C35E1C0C71590013791A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8210C3631C0C71590013791A /* CFWaterFlowView-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CFWaterFlowView-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8210C3671C0C71590013791A /* CFWaterFlowView_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFWaterFlowView_DemoTests.m; sourceTree = "<group>"; };
+		8210C3691C0C71590013791A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8210C36E1C0C71590013791A /* CFWaterFlowView-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CFWaterFlowView-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8210C3721C0C71590013791A /* CFWaterFlowView_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFWaterFlowView_DemoUITests.m; sourceTree = "<group>"; };
+		8210C3741C0C71590013791A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8210C3841C0C71B60013791A /* CFWaterFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFWaterFlowView.h; sourceTree = "<group>"; };
+		8210C3851C0C71B60013791A /* CFWaterFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFWaterFlowView.m; sourceTree = "<group>"; };
+		8210C3861C0C71B60013791A /* CFWaterFlowViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFWaterFlowViewCell.h; sourceTree = "<group>"; };
+		8210C3871C0C71B60013791A /* CFWaterFlowViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFWaterFlowViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8210C3471C0C71590013791A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8210C3601C0C71590013791A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8210C36B1C0C71590013791A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8210C3411C0C71590013791A = {
+			isa = PBXGroup;
+			children = (
+				8210C34C1C0C71590013791A /* CFWaterFlowView-Demo */,
+				8210C3661C0C71590013791A /* CFWaterFlowView-DemoTests */,
+				8210C3711C0C71590013791A /* CFWaterFlowView-DemoUITests */,
+				8210C34B1C0C71590013791A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8210C34B1C0C71590013791A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8210C34A1C0C71590013791A /* CFWaterFlowView-Demo.app */,
+				8210C3631C0C71590013791A /* CFWaterFlowView-DemoTests.xctest */,
+				8210C36E1C0C71590013791A /* CFWaterFlowView-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8210C34C1C0C71590013791A /* CFWaterFlowView-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8210C3831C0C719A0013791A /* CFWaterFlowView */,
+				8210C3821C0C718B0013791A /* other */,
+				8210C3811C0C71850013791A /* controller */,
+				8210C3801C0C71810013791A /* view */,
+				8210C34D1C0C71590013791A /* Supporting Files */,
+			);
+			path = "CFWaterFlowView-Demo";
+			sourceTree = "<group>";
+		};
+		8210C34D1C0C71590013791A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8210C35E1C0C71590013791A /* Info.plist */,
+				8210C3591C0C71590013791A /* Assets.xcassets */,
+				8210C34E1C0C71590013791A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8210C3661C0C71590013791A /* CFWaterFlowView-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8210C3671C0C71590013791A /* CFWaterFlowView_DemoTests.m */,
+				8210C3691C0C71590013791A /* Info.plist */,
+			);
+			path = "CFWaterFlowView-DemoTests";
+			sourceTree = "<group>";
+		};
+		8210C3711C0C71590013791A /* CFWaterFlowView-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8210C3721C0C71590013791A /* CFWaterFlowView_DemoUITests.m */,
+				8210C3741C0C71590013791A /* Info.plist */,
+			);
+			path = "CFWaterFlowView-DemoUITests";
+			sourceTree = "<group>";
+		};
+		8210C3801C0C71810013791A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8210C3561C0C71590013791A /* Main.storyboard */,
+				8210C35B1C0C71590013791A /* LaunchScreen.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		8210C3811C0C71850013791A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				8210C3531C0C71590013791A /* ViewController.h */,
+				8210C3541C0C71590013791A /* ViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		8210C3821C0C718B0013791A /* other */ = {
+			isa = PBXGroup;
+			children = (
+				8210C3501C0C71590013791A /* AppDelegate.h */,
+				8210C3511C0C71590013791A /* AppDelegate.m */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		8210C3831C0C719A0013791A /* CFWaterFlowView */ = {
+			isa = PBXGroup;
+			children = (
+				8210C3841C0C71B60013791A /* CFWaterFlowView.h */,
+				8210C3851C0C71B60013791A /* CFWaterFlowView.m */,
+				8210C3861C0C71B60013791A /* CFWaterFlowViewCell.h */,
+				8210C3871C0C71B60013791A /* CFWaterFlowViewCell.m */,
+			);
+			name = CFWaterFlowView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8210C3491C0C71590013791A /* CFWaterFlowView-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8210C3771C0C71590013791A /* Build configuration list for PBXNativeTarget "CFWaterFlowView-Demo" */;
+			buildPhases = (
+				8210C3461C0C71590013791A /* Sources */,
+				8210C3471C0C71590013791A /* Frameworks */,
+				8210C3481C0C71590013791A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CFWaterFlowView-Demo";
+			productName = "CFWaterFlowView-Demo";
+			productReference = 8210C34A1C0C71590013791A /* CFWaterFlowView-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8210C3621C0C71590013791A /* CFWaterFlowView-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8210C37A1C0C71590013791A /* Build configuration list for PBXNativeTarget "CFWaterFlowView-DemoTests" */;
+			buildPhases = (
+				8210C35F1C0C71590013791A /* Sources */,
+				8210C3601C0C71590013791A /* Frameworks */,
+				8210C3611C0C71590013791A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8210C3651C0C71590013791A /* PBXTargetDependency */,
+			);
+			name = "CFWaterFlowView-DemoTests";
+			productName = "CFWaterFlowView-DemoTests";
+			productReference = 8210C3631C0C71590013791A /* CFWaterFlowView-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8210C36D1C0C71590013791A /* CFWaterFlowView-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8210C37D1C0C71590013791A /* Build configuration list for PBXNativeTarget "CFWaterFlowView-DemoUITests" */;
+			buildPhases = (
+				8210C36A1C0C71590013791A /* Sources */,
+				8210C36B1C0C71590013791A /* Frameworks */,
+				8210C36C1C0C71590013791A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8210C3701C0C71590013791A /* PBXTargetDependency */,
+			);
+			name = "CFWaterFlowView-DemoUITests";
+			productName = "CFWaterFlowView-DemoUITests";
+			productReference = 8210C36E1C0C71590013791A /* CFWaterFlowView-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8210C3421C0C71590013791A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "周凌宇";
+				TargetAttributes = {
+					8210C3491C0C71590013791A = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					8210C3621C0C71590013791A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8210C3491C0C71590013791A;
+					};
+					8210C36D1C0C71590013791A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8210C3491C0C71590013791A;
+					};
+				};
+			};
+			buildConfigurationList = 8210C3451C0C71590013791A /* Build configuration list for PBXProject "CFWaterFlowView-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8210C3411C0C71590013791A;
+			productRefGroup = 8210C34B1C0C71590013791A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8210C3491C0C71590013791A /* CFWaterFlowView-Demo */,
+				8210C3621C0C71590013791A /* CFWaterFlowView-DemoTests */,
+				8210C36D1C0C71590013791A /* CFWaterFlowView-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8210C3481C0C71590013791A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8210C35D1C0C71590013791A /* LaunchScreen.storyboard in Resources */,
+				8210C35A1C0C71590013791A /* Assets.xcassets in Resources */,
+				8210C3581C0C71590013791A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8210C3611C0C71590013791A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8210C36C1C0C71590013791A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8210C3461C0C71590013791A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8210C3551C0C71590013791A /* ViewController.m in Sources */,
+				8210C3891C0C71B60013791A /* CFWaterFlowViewCell.m in Sources */,
+				8210C3521C0C71590013791A /* AppDelegate.m in Sources */,
+				8210C34F1C0C71590013791A /* main.m in Sources */,
+				8210C3881C0C71B60013791A /* CFWaterFlowView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8210C35F1C0C71590013791A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8210C3681C0C71590013791A /* CFWaterFlowView_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8210C36A1C0C71590013791A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8210C3731C0C71590013791A /* CFWaterFlowView_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8210C3651C0C71590013791A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8210C3491C0C71590013791A /* CFWaterFlowView-Demo */;
+			targetProxy = 8210C3641C0C71590013791A /* PBXContainerItemProxy */;
+		};
+		8210C3701C0C71590013791A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8210C3491C0C71590013791A /* CFWaterFlowView-Demo */;
+			targetProxy = 8210C36F1C0C71590013791A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8210C3561C0C71590013791A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8210C3571C0C71590013791A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8210C35B1C0C71590013791A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8210C35C1C0C71590013791A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8210C3751C0C71590013791A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8210C3761C0C71590013791A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8210C3781C0C71590013791A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CFWaterFlowView-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coderfish.ios.CFWaterFlowView-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8210C3791C0C71590013791A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CFWaterFlowView-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coderfish.ios.CFWaterFlowView-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8210C37B1C0C71590013791A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CFWaterFlowView-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coderfish.ios.CFWaterFlowView-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFWaterFlowView-Demo.app/CFWaterFlowView-Demo";
+			};
+			name = Debug;
+		};
+		8210C37C1C0C71590013791A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CFWaterFlowView-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coderfish.ios.CFWaterFlowView-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CFWaterFlowView-Demo.app/CFWaterFlowView-Demo";
+			};
+			name = Release;
+		};
+		8210C37E1C0C71590013791A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CFWaterFlowView-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coderfish.ios.CFWaterFlowView-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CFWaterFlowView-Demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8210C37F1C0C71590013791A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CFWaterFlowView-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coderfish.ios.CFWaterFlowView-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CFWaterFlowView-Demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8210C3451C0C71590013791A /* Build configuration list for PBXProject "CFWaterFlowView-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8210C3751C0C71590013791A /* Debug */,
+				8210C3761C0C71590013791A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8210C3771C0C71590013791A /* Build configuration list for PBXNativeTarget "CFWaterFlowView-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8210C3781C0C71590013791A /* Debug */,
+				8210C3791C0C71590013791A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8210C37A1C0C71590013791A /* Build configuration list for PBXNativeTarget "CFWaterFlowView-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8210C37B1C0C71590013791A /* Debug */,
+				8210C37C1C0C71590013791A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8210C37D1C0C71590013791A /* Build configuration list for PBXNativeTarget "CFWaterFlowView-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8210C37E1C0C71590013791A /* Debug */,
+				8210C37F1C0C71590013791A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8210C3421C0C71590013791A /* Project object */;
+}
