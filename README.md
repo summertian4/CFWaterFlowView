@@ -136,7 +136,7 @@ CFWaterFlowView是通过UIScrollView实现的。CFWaterFlowView使用方法非�
 
 如果需要自定义cell，你需要编写自己的cell类型，并使其继承于`CFWaterFlowViewCell`，再将你的控制器中代码改为：
 
-```
+```Objective-C
 
 - (CFWaterFlowViewCell *)waterFlowView:(CFWaterFlowView *)waterFlowView cellAtIndex:(NSUInteger)index {
     YourCell *cell = [waterFlowView dequeueReusableCellWithIdentifier:@"ID"];
