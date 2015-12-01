@@ -16,7 +16,7 @@ CFWaterFlowView是一个简单易用、支持自定义cell的瀑布流框架
 1. 支持横竖屏切换的适应
 
 # Install
-## Normal
+## * Normal
 将CFWaterFlowView文件夹下所有文件拖入你的项目中
 
 文件列表：
@@ -29,7 +29,7 @@ CFWaterFlowView是一个简单易用、支持自定义cell的瀑布流框架
 
 `CFWaterFlowViewCell.m`
 
-## CocoaPods
+## * CocoaPods
 即将支持
 
 # Usage
