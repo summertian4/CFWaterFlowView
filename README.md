@@ -1,11 +1,22 @@
-# 简介
+# Introduction
 CFWaterFlowView是一个简单易用、支持自定义cell的瀑布流框架
+
+你可以：
+
+1. 自定义瀑布流的列数
+2. 自定义cell的样式
+3. 自定义内容的上下左右边距
+4. 自定义每列之间的间距，上下cell之间的间距
+
 ![CFWaterFlowView展示](http://7xnrog.com1.z0.glb.clouddn.com/github_iOS-CFWaterFlowView-show-01.png-w375)
 
 ![CFWaterFlowView展示](http://7xnrog.com1.z0.glb.clouddn.com/github_iOS-CFWaterFlowView-show-02.jpg-w375)
 
-# 安装
-## 普通
+# Future
+1. 支持横竖屏切换的适应
+
+# Install
+## Normal
 将CFWaterFlowView文件夹下所有文件拖入你的项目中
 
 文件列表：
@@ -21,7 +32,7 @@ CFWaterFlowView是一个简单易用、支持自定义cell的瀑布流框架
 ## CocoaPods
 即将支持
 
-# 使用
+# Usage
 CFWaterFlowView是通过UIScrollView实现的。CFWaterFlowView使用方法非常类似于UITableView，你可以类比UITableView的使用。
 
 你需要：
@@ -104,7 +115,7 @@ CFWaterFlowView是通过UIScrollView实现的。CFWaterFlowView使用方法非�
 
 ```
 
-# 自定义cell
+# Custom Cell
 你可以看到CFWaterFlowView和UITableView的使用方法极其类似。在自定义cell也同样
 
 如果不需要自定义cell，你可以在你的控制器里这样写：
@@ -139,10 +150,10 @@ CFWaterFlowView是通过UIScrollView实现的。CFWaterFlowView使用方法非�
 
 ```
 
-# 其他
+# Other
 你可以参考Demo，在Demo中已经详细、简洁的告诉你如何使用CFWaterFlowView
 
 希望你能喜欢CFWaterFlowView
 
-# 反馈
+# Feedback
 如果有什么修改建议，可以发送邮件到coderfish@163.com，也欢迎到我的[博客](http://zhoulingyu.com)
