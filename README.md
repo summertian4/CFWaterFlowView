@@ -21,13 +21,14 @@ CFWaterFlowView是一个简单易用、支持自定义cell的瀑布流框架
 
 文件列表：
 
-`CFWaterFlowView.h`
+```Objective-C
 
-`CFWaterFlowView.m`
+CFWaterFlowView.h
+CFWaterFlowView.m
+CFWaterFlowViewCell.h
+CFWaterFlowViewCell.m
 
-`CFWaterFlowViewCell.h`
-
-`CFWaterFlowViewCell.m`
+```
 
 ## * CocoaPods
 即将支持
@@ -45,7 +46,7 @@ CFWaterFlowView是通过UIScrollView实现的。CFWaterFlowView使用方法非�
 
 必须实现的方法方法如下：
  
-```
+```Objective-C
 
 /**
  *  一共多少cell
@@ -69,7 +70,7 @@ CFWaterFlowView是通过UIScrollView实现的。CFWaterFlowView使用方法非�
 
 可选实现的方法方法如下：
 
-```
+```Objective-C
 
 /**
  *  一共多少列，如果数据源没有设置，默认为2列
@@ -85,7 +86,7 @@ CFWaterFlowView是通过UIScrollView实现的。CFWaterFlowView使用方法非�
 ## CFWaterFlowViewDelegate
 可选实现的方法方法如下：
 
-```
+```Objective-C
 
 /**
  *  返回对应索引的cell的高度
@@ -120,7 +121,7 @@ CFWaterFlowView是通过UIScrollView实现的。CFWaterFlowView使用方法非�
 
 如果不需要自定义cell，你可以在你的控制器里这样写：
 
-```
+```Objective-C
 
 - (CFWaterFlowViewCell *)waterFlowView:(CFWaterFlowView *)waterFlowView cellAtIndex:(NSUInteger)index {
     CFWaterFlowViewCell *cell = [waterFlowView dequeueReusableCellWithIdentifier:@"ID"];
