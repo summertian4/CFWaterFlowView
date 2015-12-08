@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/summertian4/iOS-CFWaterFlowView"
   s.license          = 'MIT'
   s.author           = { "周凌宇" => "coderfish@163.com" }
-  s.source           = { :git => "https://github.com/summertian4/iOS-CFWaterFlowView", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/summertian4/iOS-CFWaterFlowView.git", :tag => s.version.to_s }
 
   s.platform     = :ios
   s.requires_arc = true
